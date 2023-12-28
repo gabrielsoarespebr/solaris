@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/* RESET CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL STYLES */
+:root{
+  --color-1: #001e3a;
+  --color-2: #3fbbff;
+  --color-3: #ffb600;
+  --color-4: #fdfcdd;
+}
+
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
