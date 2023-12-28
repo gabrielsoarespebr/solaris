@@ -1,0 +1,17 @@
+section{
+  background-image: url("../../../../../assets/images/educationLevelsBackground.png");
+  background-size: cover;
+}
+
+h2{
+  outline: var(--color-3) 10rem;
+}
+
+figcaption{
+  padding: 1vw;
+
+  background-color: var(--color-1);
+  color: white;
+
+  text-align: center;
+}
