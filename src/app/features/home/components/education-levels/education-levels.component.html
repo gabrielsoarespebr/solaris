@@ -1,0 +1,41 @@
+<ul class="list-unstyled list-group list-group-horizontal">
+  <li
+    (mouseover)="babyPhoto = 'assets/images/babyClass8.jpg'"
+    (mouseout)="babyPhoto = babyPhotoDefault"
+  >
+    <figure>
+      <img class="w-100" [src]="babyPhoto" alt="Baby in class" />
+      <figcaption>Ensino Infantil</figcaption>
+    </figure>
+  </li>
+
+  <li
+    (mouseover)="kidPhoto = 'assets/images/kidClass1.jpg'"
+    (mouseout)="kidPhoto = kidPhotoDefault"
+  >
+    <figure>
+      <img class="w-100" [src]="kidPhoto" alt="Kid in class" />
+      <figcaption>Ensino Fundamental I</figcaption>
+    </figure>
+  </li>
+
+  <li
+    (mouseover)="teenPhoto = 'assets/images/teenClass4.jpg'"
+    (mouseout)="teenPhoto = teenPhotoDefault"
+  >
+    <figure>
+      <img class="w-100" [src]="teenPhoto" alt="Teen in class" />
+      <figcaption>Ensino Fundamental II</figcaption>
+    </figure>
+  </li>
+
+  <li
+    (mouseover)="youngAdultPhoto = 'assets/images/youngAdultClass4.jpg'"
+    (mouseout)="youngAdultPhoto = youngAdultPhotoDefault"
+  >
+    <figure>
+      <img class="w-100" [src]="youngAdultPhoto" alt="Young adult in class" />
+      <figcaption>Ensino Médio</figcaption>
+    </figure>
+  </li>
+</ul>

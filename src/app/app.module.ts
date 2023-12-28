@@ -7,6 +7,9 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { HomeComponent } from './features/home/home.component';
 import { AboutComponent } from './features/about/about.component';
 import { ContactComponent } from './features/contact/contact.component';
+import { EnrollmentComponent } from './features/enrollment/enrollment.component';
+import { AdvantagesComponent } from './features/advantages/advantages.component';
+import { EducationLevelsComponent } from './features/home/components/education-levels/education-levels.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ContactComponent } from './features/contact/contact.component';
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    EnrollmentComponent,
+    AdvantagesComponent,
+    EducationLevelsComponent
   ],
   imports: [
     BrowserModule,
