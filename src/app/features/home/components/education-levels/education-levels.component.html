@@ -1,7 +1,7 @@
 <ul class="list-unstyled list-group list-group-horizontal">
   <li
-    (mouseover)="babyPhoto = 'assets/images/babyClass8.jpg'"
-    (mouseout)="babyPhoto = babyPhotoDefault"
+    (mouseover)="onMouserOver('baby')"
+    (mouseout)="onMouserOut('baby')"
   >
     <figure>
       <img class="w-100" [src]="babyPhoto" alt="Baby in class" />
@@ -10,8 +10,8 @@
   </li>
 
   <li
-    (mouseover)="kidPhoto = 'assets/images/kidClass1.jpg'"
-    (mouseout)="kidPhoto = kidPhotoDefault"
+    (mouseover)="onMouserOver('kid')"
+    (mouseout)="onMouserOut('kid')"
   >
     <figure>
       <img class="w-100" [src]="kidPhoto" alt="Kid in class" />
@@ -20,8 +20,8 @@
   </li>
 
   <li
-    (mouseover)="teenPhoto = 'assets/images/teenClass4.jpg'"
-    (mouseout)="teenPhoto = teenPhotoDefault"
+    (mouseover)="onMouserOver('teen')"
+    (mouseout)="onMouserOut('teen')"
   >
     <figure>
       <img class="w-100" [src]="teenPhoto" alt="Teen in class" />
@@ -30,8 +30,8 @@
   </li>
 
   <li
-    (mouseover)="youngAdultPhoto = 'assets/images/youngAdultClass4.jpg'"
-    (mouseout)="youngAdultPhoto = youngAdultPhotoDefault"
+    (mouseover)="onMouserOver('youngAdult')"
+    (mouseout)="onMouserOut('youngAdult')"
   >
     <figure>
       <img class="w-100" [src]="youngAdultPhoto" alt="Young adult in class" />
