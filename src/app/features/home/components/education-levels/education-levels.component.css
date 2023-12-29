@@ -1,13 +1,13 @@
-section{
+section {
   background-image: url("../../../../../assets/images/educationLevelsBackground.png");
   background-size: cover;
 }
 
-h2{
+h2 {
   outline: var(--color-3) 10rem;
 }
 
-figcaption{
+figcaption {
   padding: 1vw;
 
   background-color: var(--color-1);
@@ -16,7 +16,27 @@ figcaption{
   text-align: center;
 }
 
-li:hover{
+li:hover {
   box-shadow: 0 0 2rem white;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.list-unstyled li figure {
+  position: relative;
+  overflow: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.list-unstyled li figure img {
+  width: 100%;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fade-out {
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
