@@ -1,4 +1,7 @@
 header {
+  position: sticky;
+  top: 0;
+
   width: 100vw;
   height: 15vh;
 
@@ -9,21 +12,21 @@ header {
 
   font-weight: bold;
 
-  & nav{
+  & nav {
     height: 100%;
 
-    & li{
+    & li {
       cursor: pointer;
     }
 
-    & img{
+    & img {
       height: 100%;
     }
   }
 }
 
-.current-page{
-  background: linear-gradient(var(--color-3) 30%,var(--color-4));
+.current-page {
+  background: linear-gradient(var(--color-3) 30%, var(--color-4));
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
