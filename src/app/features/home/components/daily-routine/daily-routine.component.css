@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
+
+section {
+  background-image: url("../../../../../assets/images/backgrounds/dailyRoutineBackground.png");
+  background-size: cover;
+}
+
+p,
+q {
+  margin: 0;
+
+  font-family: "Beau Rivage", cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+q {
+  display: block;
+
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+}

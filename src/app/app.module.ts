@@ -10,6 +10,7 @@ import { ContactComponent } from './features/contact/contact.component';
 import { EnrollmentComponent } from './features/enrollment/enrollment.component';
 import { AdvantagesComponent } from './features/advantages/advantages.component';
 import { EducationLevelsComponent } from './features/home/components/education-levels/education-levels.component';
+import { DailyRoutineComponent } from './features/home/components/daily-routine/daily-routine.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { EducationLevelsComponent } from './features/home/components/education-l
     ContactComponent,
     EnrollmentComponent,
     AdvantagesComponent,
-    EducationLevelsComponent
+    EducationLevelsComponent,
+    DailyRoutineComponent
   ],
   imports: [
     BrowserModule,
