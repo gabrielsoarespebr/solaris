@@ -1,0 +1,22 @@
+footer {
+  width: 100vw;
+
+  padding: 1vh;
+
+  background-color: var(--color-1);
+  color: var(--color-3);
+
+  font-weight: 600;
+}
+
+iframe{
+  max-width: 80%;
+}
+
+p,address{
+  margin: 0;
+}
+
+.socialMedia li i{
+  font-size: 350%;
+}

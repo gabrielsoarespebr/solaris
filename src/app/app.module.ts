@@ -12,6 +12,7 @@ import { AdvantagesComponent } from './features/advantages/advantages.component'
 import { EducationLevelsComponent } from './features/home/components/education-levels/education-levels.component';
 import { DailyRoutineComponent } from './features/home/components/daily-routine/daily-routine.component';
 import { BannerCarouselComponent } from './features/home/components/banner-carousel/banner-carousel.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +25,12 @@ import { BannerCarouselComponent } from './features/home/components/banner-carou
     AdvantagesComponent,
     EducationLevelsComponent,
     DailyRoutineComponent,
-    BannerCarouselComponent
+    BannerCarouselComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
