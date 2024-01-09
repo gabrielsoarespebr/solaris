@@ -1,0 +1,16 @@
+section{
+  background-image: url("../../../../../assets/images/backgrounds/educationLevelsBackground.png");
+  background-size: cover;
+}
+
+h2{
+  outline: var(--color-3) 10rem;
+}
+
+ul{
+  font-size: 130%;
+}
+
+summary{
+  font-weight: bold;
+}

@@ -15,6 +15,7 @@ import { BannerCarouselComponent } from './features/home/components/banner-carou
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { StudentPortalComponent } from './features/student-portal/student-portal.component';
 import { GalleryComponent } from './features/gallery/gallery.component';
+import { FaqComponent } from './features/home/components/faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { GalleryComponent } from './features/gallery/gallery.component';
     BannerCarouselComponent,
     FooterComponent,
     StudentPortalComponent,
-    GalleryComponent
+    GalleryComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
