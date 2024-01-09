@@ -13,6 +13,8 @@ import { EducationLevelsComponent } from './features/home/components/education-l
 import { DailyRoutineComponent } from './features/home/components/daily-routine/daily-routine.component';
 import { BannerCarouselComponent } from './features/home/components/banner-carousel/banner-carousel.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { StudentPortalComponent } from './features/student-portal/student-portal.component';
+import { GalleryComponent } from './features/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FooterComponent } from './shared/components/footer/footer.component';
     EducationLevelsComponent,
     DailyRoutineComponent,
     BannerCarouselComponent,
-    FooterComponent
+    FooterComponent,
+    StudentPortalComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
