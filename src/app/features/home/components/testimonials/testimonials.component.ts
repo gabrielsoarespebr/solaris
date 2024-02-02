@@ -38,7 +38,7 @@ export class TestimonialsComponent {
       text: 'Aqui eu consigo participar de todas as brincadeiras. Minha atividade preferida é colorir. Os professores são muito legais!',
       author:
         'Matheus, estudante do Ensino Fundamental I.',
-      image: './assets/images/testimonialStudentBoy.jpg',
+      image: './assets/images/testimonialStudentBoy.png',
     }
   ];
 
