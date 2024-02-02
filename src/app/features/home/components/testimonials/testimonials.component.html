@@ -1,0 +1,19 @@
+<section class="p-5 pt-4">
+  <h2 class="pb-3 text-end">
+    O QUE FALAM <span class="fw-bold">SOBRE NÓS</span>
+  </h2>
+  <div class="d-flex text-white">
+    <div class="testimonial-container d-flex align-items-center">
+      <img [src]="testimonialImage" [alt]="testimonialAuthor.split(',')[0]" />
+      <blockquote class="pe-4">
+        <p>
+          {{ testimonialText }}
+        </p>
+        <cite>{{ testimonialAuthor }}</cite>
+      </blockquote>
+    </div>
+    <ul class="list-unstyled fw-bold fs-5">
+      <li class="px-2" *ngFor="let testimonialIndex of testimonialIndexList" (click)="chooseTestimonial(testimonialIndex)">{{testimonialIndex}}</li>
+    </ul>
+  </div>
+</section>

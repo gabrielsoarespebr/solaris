@@ -16,6 +16,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { StudentPortalComponent } from './features/student-portal/student-portal.component';
 import { GalleryComponent } from './features/gallery/gallery.component';
 import { FaqComponent } from './features/home/components/faq/faq.component';
+import { TestimonialsComponent } from './features/home/components/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FaqComponent } from './features/home/components/faq/faq.component';
     FooterComponent,
     StudentPortalComponent,
     GalleryComponent,
-    FaqComponent
+    FaqComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,

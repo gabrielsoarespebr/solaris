@@ -1,0 +1,29 @@
+section {
+  background-image: url("../../../../../assets/images/backgrounds/dailyRoutineBackground.png");
+  background-size: cover;
+}
+
+.testimonial-container{
+  background-color: var(--color-1);
+}
+
+blockquote>p{
+  font-size: 120%;
+}
+
+img{
+  width: 30%;
+
+  aspect-ratio: 1/1;
+  mask-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)),color-stop(50%,rgba(0,0,0,1)),color-stop(90%,rgba(0,0,0,0)));
+  -webkit-mask-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)),color-stop(50%,rgba(0,0,0,1)),color-stop(90%,rgba(0,0,0,0)));
+}
+
+li{
+  cursor: pointer;
+
+  color: var(--color-1);
+  background-color: var(--color-2);
+  border: solid var(--color-1);
+  border-width: .2rem .2rem .2rem 0;
+}
