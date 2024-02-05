@@ -27,3 +27,10 @@ li{
   border: solid var(--color-1);
   border-width: .2rem .2rem .2rem 0;
 }
+
+.testimonialIndexActive{
+  color: var(--color-1);
+  background-color: var(--color-1);
+  color: white;
+  /* background-color: var(--color-2); */
+}

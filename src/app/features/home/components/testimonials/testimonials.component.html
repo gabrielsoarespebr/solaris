@@ -13,7 +13,7 @@
       </blockquote>
     </div>
     <ul class="list-unstyled fw-bold fs-5">
-      <li class="px-2" *ngFor="let testimonialIndex of testimonialIndexList" (click)="chooseTestimonial(testimonialIndex)">{{testimonialIndex}}</li>
+      <li class="px-2" *ngFor="let testimonialIndex of testimonialIndexList" (click)="chooseTestimonial(testimonialIndex)" [class.testimonialIndexActive]="testimonialIndex === testimonialIndexCurrent">{{testimonialIndex}}</li>
     </ul>
   </div>
 </section>

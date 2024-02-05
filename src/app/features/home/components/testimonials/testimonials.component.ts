@@ -10,6 +10,8 @@ export class TestimonialsComponent {
   testimonialAuthor: string = '';
   testimonialImage: string = '';
 
+  testimonialIndexCurrent:number = 1;
+
   testimonialList = [
     {
       text: 'Minha vida mudou para melhor depois do Instituto Solaris. Sempre fui muito tímida, mas depois que entrei nessa escola na 6ª série do Ensino Fundamental, encontrei um ambiente acolheador e passei a interagir mais. Comecei a aproveitar mais os momentos com minha família e a descobrir novos hobbies.',
@@ -29,7 +31,7 @@ export class TestimonialsComponent {
       image: './assets/images/testimonialTeacher.png',
     },
     {
-      text: 'Cursei todo o Ensino Médio no Instituto Solari, e lá descobri minha vocação para Arquitetura. Só tenho gratidão à equipe, pois todos eles trilharam o caminho para minha realização pessoal e profissional.',
+      text: 'Cursei todo o Ensino Médio no Instituto Solaris, e lá descobri minha vocação para Arquitetura. Só tenho gratidão à equipe, pois todos eles trilharam o caminho para minha realização pessoal e profissional.',
       author:
         'Flávio, ex-aluno.',
       image: './assets/images/testimonialFormerStudent.png',
@@ -58,5 +60,7 @@ export class TestimonialsComponent {
     this.testimonialText = this.testimonialList[index-1].text;
     this.testimonialAuthor = this.testimonialList[index-1].author;
     this.testimonialImage = this.testimonialList[index-1].image;
+
+    this.testimonialIndexCurrent = index;
   }
 }
