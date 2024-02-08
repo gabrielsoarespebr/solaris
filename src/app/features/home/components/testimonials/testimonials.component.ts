@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './testimonials.component.css',
 })
 export class TestimonialsComponent {
-  testimonialText: string = '';
-  testimonialAuthor: string = '';
-  testimonialImage: string = '';
+  testimonialText: string;
+  testimonialAuthor: string;
+  testimonialImage: string;
 
-  testimonialIndexCurrent:number = 1;
+  testimonialIndexCurrent:number = 0;
 
   testimonialList = [
     {
@@ -44,12 +44,6 @@ export class TestimonialsComponent {
     }
   ];
 
-  testimonialAmount: number = this.testimonialList.length;
-  testimonialIndexList: number[] = Array.from(
-    { length: this.testimonialAmount },
-    (_, index) => index + 1
-  );
-
   constructor() {
     this.testimonialText = this.testimonialList[0].text;
     this.testimonialAuthor = this.testimonialList[0].author;
@@ -57,9 +51,9 @@ export class TestimonialsComponent {
   }
 
   chooseTestimonial(index:number){
-    this.testimonialText = this.testimonialList[index-1].text;
-    this.testimonialAuthor = this.testimonialList[index-1].author;
-    this.testimonialImage = this.testimonialList[index-1].image;
+    this.testimonialText = this.testimonialList[index].text;
+    this.testimonialAuthor = this.testimonialList[index].author;
+    this.testimonialImage = this.testimonialList[index].image;
 
     this.testimonialIndexCurrent = index;
   }
